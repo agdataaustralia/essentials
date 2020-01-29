@@ -52,7 +52,6 @@ package EssentialsDBDR;
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
 {$DESCRIPTION 'TurboPack Essentials Delphi DB Runtime package'}
-{$LIBSUFFIX '260'}
 {$RUNONLY}
 {$IMPLICITBUILD OFF}
 

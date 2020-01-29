@@ -50,7 +50,7 @@
         <SanitizedProjectName>EssentialsDBDR</SanitizedProjectName>
         <DCC_AssertionsAtRuntime>false</DCC_AssertionsAtRuntime>
         <DCC_CBuilderOutput>All</DCC_CBuilderOutput>
-        <DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
+        <DCC_DcuOutput>..\..\..\lib\$(Platform)\$(Config)</DCC_DcuOutput>
         <DCC_DebugInformation>0</DCC_DebugInformation>
         <DCC_DependencyCheckOutputName>C:\Users\Public\Documents\RAD Studio\7.0\Bpl\E111BR140.bpl</DCC_DependencyCheckOutputName>
         <DCC_Description>TurboPack Essentials Delphi DB Runtime package</DCC_Description>
@@ -61,7 +61,6 @@
         <DCC_Platform>x86</DCC_Platform>
         <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
         <DCC_WriteableConstants>true</DCC_WriteableConstants>
-        <DllSuffix>260</DllSuffix>
         <GenDll>true</GenDll>
         <GenPackage>true</GenPackage>
         <RuntimeOnlyPackage>true</RuntimeOnlyPackage>
@@ -69,6 +68,8 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1031</VerInfo_Locale>
+        <DCC_DcpOutput>..\..\..\lib\$(Platform)\$(Config)</DCC_DcpOutput>
+        <DCC_BplOutput>..\..\..\bin</DCC_BplOutput>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>

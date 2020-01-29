@@ -2,7 +2,7 @@
     <PropertyGroup>
         <Base>True</Base>
         <AppType>Package</AppType>
-        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Config Condition="'$(Config)'==''">Release</Config>
         <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
         <FrameworkType>VCL</FrameworkType>
         <MainSource>EssentialsDD.dpk</MainSource>
@@ -44,7 +44,7 @@
     <PropertyGroup Condition="'$(Base)'!=''">
         <SanitizedProjectName>EssentialsDD</SanitizedProjectName>
         <DCC_CBuilderOutput>All</DCC_CBuilderOutput>
-        <DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
+        <DCC_DcuOutput>..\..\..\lib\$(Platform)\$(Config)</DCC_DcuOutput>
         <DCC_DependencyCheckOutputName>C:\Users\Public\Documents\RAD Studio\7.0\Bpl\E111_D140.bpl</DCC_DependencyCheckOutputName>
         <DCC_Description>TurboPack Essentials Delphi Designtime package</DCC_Description>
         <DCC_ImageBase>00400000</DCC_ImageBase>
@@ -54,7 +54,6 @@
         <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
         <DCC_WriteableConstants>true</DCC_WriteableConstants>
         <DesignOnlyPackage>true</DesignOnlyPackage>
-        <DllSuffix>260</DllSuffix>
         <GenDll>true</GenDll>
         <GenPackage>true</GenPackage>
         <SkipResGeneration>false</SkipResGeneration>
@@ -62,6 +61,8 @@
         <VerInfo_Keys>CompanyName=TurboPower Software Company;FileDescription=;FileVersion=1.11.0.0;InternalName=;LegalCopyright=(c) TurboPower Software Co, 1997-2002;LegalTrademarks=;OriginalFilename=;ProductName=Essentials;ProductVersion=1.11;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_MinorVer>11</VerInfo_MinorVer>
+        <DCC_BplOutput>..\..\..\bin</DCC_BplOutput>
+        <DCC_DcpOutput>..\..\..\lib\$(Platform)\$(Config)</DCC_DcpOutput>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>

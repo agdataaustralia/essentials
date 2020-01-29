@@ -71,7 +71,9 @@ begin
   RegisterComponentEditor(TEsCustomLabel, TEsLabelEditor);
 
   RegisterComponents('Essentials 1',
-    [TEsLabel,
+    [
+     {
+     TEsLabel,
      TEsScrollingMarquee,
      TEsCalendar,
      TEsCalculator,
@@ -80,8 +82,9 @@ begin
      TEsMenuButton,
      TEsColorComboBox,
      TEsTile,
-     TEsGradient,
-     TEsRollUp
+     }
+     TEsGradient
+     {TEsRollUp}
      ]);
 end;
 
