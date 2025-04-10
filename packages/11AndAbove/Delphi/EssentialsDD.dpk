@@ -57,9 +57,8 @@ package EssentialsDD;
 {$IMPLICITBUILD OFF}
 
 requires
-  vcl,
-  designide,
-  EssentialsDR;
+  EssentialsDR,
+  designide;
 
 contains
   EsBase0 in '..\..\..\source\EsBase0.pas',
